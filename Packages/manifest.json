@@ -3,6 +3,7 @@
     "com.cognitive3d.c3d-sdk": "https://github.com/CognitiveVR/cvr-sdk-unity.git",
     "com.meta.movement": "https://github.com/oculus-samples/Unity-Movement.git",
     "com.meta.xr.mrutilitykit": "60.0.0",
+    "com.meta.xr.sdk.all": "60.0.0",
     "com.meta.xr.sdk.interaction": "60.0.0",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.ide.rider": "3.0.27",
