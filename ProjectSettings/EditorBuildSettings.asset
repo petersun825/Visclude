@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/UI-black-spots.unity
+    guid: cd8f23df6519e40c1bc63ef7bce10e6b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a7af7774348539441ba0d4640a55343a,
       type: 2}
