@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class SpotMover : MonoBehaviour
 {
     public float speed = 1.0f; // Speed of the movement
@@ -14,8 +13,8 @@ public class SpotMover : MonoBehaviour
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-        startPosition = rectTransform.anchoredPosition;
-        targetPosition = new Vector2(-5f, -5f); // Start moving towards (-2, -2)
+        startPosition = new Vector2(50f, 50f); // Set initial start position
+        targetPosition = new Vector2(-50f, -50f); // Set initial target position
     }
 
     void Update()
@@ -24,7 +23,7 @@ public class SpotMover : MonoBehaviour
         time += Time.deltaTime * speed;
 
         // Move back and forth between startPosition and targetPosition
-        rectTransform.anchoredPosition = Vector2.Lerp(new Vector2(2f, 2f), new Vector2(-2f, -2f), Mathf.PingPong(time, 1));
+        rectTransform.anchoredPosition = Vector2.Lerp(startPosition, targetPosition, Mathf.PingPong(time, 1));
 
         // Check if we need to switch target
         if (Vector2.Distance(rectTransform.anchoredPosition, targetPosition) < 0.01f)
