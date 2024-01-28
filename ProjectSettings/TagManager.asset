@@ -3,23 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - FxTemporaire
-  - Hand
-  - Head
-  - Bullet
-  - Spot
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - HiddenMesh
+  - 
   - Water
   - UI
   - 
   - 
   - 
-  - 
+  - HiddenMesh
   - Character
   - MirroredCharacter
   - 

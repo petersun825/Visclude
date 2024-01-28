@@ -11,14 +11,14 @@
       "hash": "c77f3e75e450ab7b65330d3d8c92cbbdd7b4b6df"
     },
     "com.meta.movement": {
-      "version": "https://github.com/oculus-samples/Unity-Movement.git",
+      "version": "https://github.com/oculus-samples/Unity-Movement.git#v3.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6",
         "com.unity.animation.rigging": "1.2.1"
       },
-      "hash": "cf3756855cd19afc1dca21fda16f022fe21e4f7e"
+      "hash": "9aaa97bb29d6771cdbc330adb6b3f26167eb14ad"
     },
     "com.meta.xr.mrutilitykit": {
       "version": "60.0.0",
@@ -79,7 +79,7 @@
     },
     "com.meta.xr.sdk.interaction": {
       "version": "60.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6",
@@ -97,12 +97,32 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.meta.xr.sdk.interaction.ovr.samples": {
+      "version": "60.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.meta.xr.sdk.interaction.ovr": "60.0.0",
+        "com.meta.xr.sdk.sharedassets": "60.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.meta.xr.sdk.platform": {
       "version": "60.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.meta.xr.sdk.core": "60.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.sharedassets": {
+      "version": "60.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
         "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
